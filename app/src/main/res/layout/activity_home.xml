@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.bkav.android.ahii.chat.HomeActivity">
+    <ImageView
+        android:layout_marginTop="@dimen/MaginTopImageView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/login"
+        android:layout_width="@dimen/ImageVIewLogin"
+        android:layout_height="@dimen/ImageVIewLogin" />
+
+
+    <EditText
+        android:textSize="@dimen/TextSizeEDittext"
+        android:hint="Username"
+        android:layout_centerVertical="true"
+        android:id="@+id/edtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+
+
+    <EditText
+        android:textSize="@dimen/TextSizeEDittext"
+        android:hint="Password"
+        android:layout_marginTop="@dimen/MaginTopEdt"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtUser"
+
+       />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginTop="@dimen/MaginTopEdt"
+        android:text="LOGIN"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

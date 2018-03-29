@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ImageVIewLogin">200dp</dimen>
+    <dimen name="TextSizeEDittext">20dp</dimen>
+    <dimen name="MaginTopImageView">30dp</dimen>
+    <dimen name="MaginTopEdt">5dp</dimen>
+    <dimen name="ProgressBar">30dp</dimen>
+    <dimen name="marginBottom">45dp</dimen>
+    <dimen name="paddingBottom">10dp</dimen>
+    <dimen name="TextViewMusic">40dp</dimen>
+</resources>
